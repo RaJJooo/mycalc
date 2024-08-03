@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:initial;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("back7.jpg");
+}
+.outer{
+    box-shadow: 0px 0px 100px black;
+    background: linear-gradient(45deg, #c3195d,black);
+    border-radius: 40px 0px;
+}
+.inner
+{
+    padding: 20px;
+}
+input{
+    height: 90px;
+    width: 250px;
+    border: none;
+    background: transparent;
+    text-align:right;
+    cursor: pointer;
+    margin:10px;
+    padding: 30px;
+    font-size:30px;
+    color: white;
+}
+button{
+    background: rgb(222, 208, 208);
+    height: 60px;
+    width: 60px;
+    margin: 3px;
+    font-size:22px;
+    font-style:oblique;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: rotate(-2deg) skew(2deg);
+}
+button:hover{
+    z-index: 200;
+    transition: 0.5s;
+    color: blue;
+    box-shadow: -1px 1 px 1px rgb(0, 21, 255);
+    transform: translate(2px, -2px);
+    background-color: #9e0140;
+    color: white;
+    opacity:0.5;
+}
+.equals{
+    width: 60px;
+    position:absolute ;
+    height: 120px;
+    margin-left: 8px;
+}
+input::placeholder{
+    color: rgb(250, 248, 248);
+}
+.title{
+    position: relative;
+    height: 630px;
+    width: 0px;
+}
+span{
+    display:contents;
+    /* padding: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 30px;
+    background-color: rgb(110, 199, 169);
+    cursor: pointer; */
+}
